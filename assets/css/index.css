@@ -1,0 +1,85 @@
+:root{
+    --fontdefautl: 10px;
+    --primarycolor:#FF090D;
+    --couleur-neutre:#fff;
+    --couleur-seconde:#AEA9A9;
+    --jim-family: "Jim Nightshade", cursive;
+    --lilita-family:  "Lilita One", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background: url('/assets/images/fond.png');
+}
+
+nav{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 5rem;
+    padding:0 4rem;
+}
+
+ul{
+    width: 50%;
+   display: flex;
+   justify-content: space-between;
+}
+
+li a{
+    text-decoration: none;
+    font-family: var(--lilita-family);
+    font-size: 1.4rem;
+    color: var(--primarycolor);
+}
+
+.btn{
+    width: 15rem;
+    height: 3.3rem;
+    border-radius: 0.7rem;
+    background-color: var(--primarycolor);
+    border: none;
+    color: var(--couleur-neutre);
+    font-family: var(--lilita-family);
+    font-size: 1.3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.page1{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nom{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2;
+    font-family: var(--jim-family);
+    font-size: 1.6rem;
+    color: var(--couleur-seconde);
+}
+
+.photo{
+     flex: 1; 
+    display: flex;
+    justify-content: flex-end;
+    padding: 0rem 10rem 0rem 0rem;
+}
+
+img[src="/assets/images/photo.jpeg"]{
+    border-radius: 20rem;
+}
