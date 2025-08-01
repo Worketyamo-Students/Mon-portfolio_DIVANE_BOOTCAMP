@@ -81,12 +81,13 @@ li a{
 .filiere{
     color: var(--primarycolor);
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 4rem;
+    padding:2rem 0 ;
 }
 
 .photo{
      width: 30rem;
-     height: 30rem;
+     height: 33rem;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -106,6 +107,7 @@ img[src="/assets/images/photo.jpeg"]{
 }
 
 .btn2{
+    margin-left: 10rem;
      width: 15rem;
     height: 3.3rem;
     border-radius: 0.7rem;
@@ -116,12 +118,13 @@ img[src="/assets/images/photo.jpeg"]{
     font-size: 1.3rem;
     font-weight: 900;
     text-transform: uppercase;
+   
 }
 
 .liens{
     width: 20rem;
     height: 5rem;
-    margin: 0px 9rem;
+    margin: 3rem 15rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
